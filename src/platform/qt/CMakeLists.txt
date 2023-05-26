@@ -128,6 +128,7 @@ set(SOURCE_FILES
 	MemoryDump.cpp
 	MemoryModel.cpp
 	MemorySearch.cpp
+  MemoryServer.cpp
 	MemoryView.cpp
 	MessagePainter.cpp
 	MultiplayerController.cpp
