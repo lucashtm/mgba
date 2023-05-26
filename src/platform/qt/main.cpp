@@ -10,6 +10,7 @@
 #include "ConfigController.h"
 #include "GBAApp.h"
 #include "Window.h"
+#include "MemoryServer.h"
 
 #include <mgba/core/version.h>
 #include <mgba/gba/interface.h>
@@ -124,6 +125,7 @@ int main(int argc, char* argv[]) {
 
 	w->show();
 
+  MemoryServer memoryServer;
 	int ret = application.exec();
 	if (ret != 0) {
 		return ret;
